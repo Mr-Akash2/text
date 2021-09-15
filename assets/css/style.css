@@ -83,3 +83,21 @@
         border: none;
         height: 100vh;
     }
+    
+    @media (max-width:768px) {
+        #main input {
+            width: 230px;
+        }
+        #main img {
+            width: 250px;
+        }
+        #res input {
+            width: 200px;
+        }
+        /* #main button {
+            border-radius: 8px;
+            font-weight: 400;
+            font-family: arial;
+            letter-spacing: 0.5px;
+        } */
+    }
